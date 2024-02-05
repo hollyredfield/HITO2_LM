@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/xml.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>XML - Blog de Programación</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="fas fa-code"></i> Blog de Programación</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="xml.html"><i class="fas fa-file-code"></i> XML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="json.html"><i class="fas fa-file-code"></i> JSON</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>XML</h2>
+                <p>XML (Extensible Markup Language) es un lenguaje de marcado que define reglas para la codificación de documentos en un formato legible tanto para humanos como para máquinas. Es ampliamente utilizado para el intercambio de datos estructurados en aplicaciones web y servicios API.</p>
+                <h3>Ejemplo de XML</h3>
+                <p>Aquí tienes un ejemplo de cómo se ve un documento XML:</p>
+                <div class="card">
+                    <div class="card-body">
+                        <pre id="xml1"><code>&lt;personas&gt;
+    &lt;persona&gt;
+        &lt;nombre&gt;Juan&lt;/nombre&gt;
+        &lt;edad&gt;30&lt;/edad&gt;
+        &lt;ciudad&gt;Nueva York&lt;/ciudad&gt;
+    &lt;/persona&gt;
+    &lt;persona&gt;
+        &lt;nombre&gt;Ana&lt;/nombre&gt;
+        &lt;edad&gt;25&lt;/edad&gt;
+        &lt;ciudad&gt;Madrid&lt;/ciudad&gt;
+    &lt;/persona&gt;
+    &lt;persona&gt;
+        &lt;nombre&gt;Pedro&lt;/nombre&gt;
+        &lt;edad&gt;35&lt;/edad&gt;
+        &lt;ciudad&gt;Barcelona&lt;/ciudad&gt;
+    &lt;/persona&gt;
+&lt;/personas&gt;</code></pre>
+                        <button onclick="copyToClipboard('xml1')">Copiar</button>
+                    </div>
+                </div>
+                <h3>Otro ejemplo de XML</h3>
+                <p>Aquí tienes otro ejemplo de un documento XML que representa una lista de libros:</p>
+                <div class="card">
+                    <div class="card-body">
+                        <pre id="xml2"><code>&lt;libros&gt;
+    &lt;libro&gt;
+        &lt;titulo&gt;El Padrino&lt;/titulo&gt;
+        &lt;autor&gt;Mario Puzo&lt;/autor&gt;
+        &lt;año&gt;1969&lt;/año&gt;
+        &lt;genero&gt;Drama&lt;/genero&gt;
+    &lt;/libro&gt;
+    &lt;libro&gt;
+        &lt;titulo&gt;1984&lt;/titulo&gt;
+        &lt;autor&gt;George Orwell&lt;/autor&gt;
+        &lt;año&gt;1949&lt;/año&gt;
+        &lt;genero&gt;Ciencia ficción&lt;/genero&gt;
+    &lt;/libro&gt;
+&lt;/libros&gt;</code></pre>
+                        <button onclick="copyToClipboard('xml2')">Copiar</button>
+                    </div>
+                </div>
+                <h3>Más ejemplos de XML</h3>
+                <p>Aquí tienes más ejemplos de documentos XML:</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo 1</h5>
+                                <p class="card-text">Este es un ejemplo de un documento XML con información de una película:</p>
+                                <pre><code>&lt;pelicula&gt;
+    &lt;titulo&gt;El Padrino&lt;/titulo&gt;
+    &lt;director&gt;Francis Ford Coppola&lt;/director&gt;
+    &lt;año&gt;1972&lt;/año&gt;
+    &lt;genero&gt;Drama&lt;/genero&gt;
+    &lt;actores&gt;
+        &lt;actor&gt;Marlon Brando&lt;/actor&gt;
+        &lt;actor&gt;Al Pacino&lt;/actor&gt;
+        &lt;actor&gt;James Caan&lt;/actor&gt;
+    &lt;/actores&gt;
+&lt;/pelicula&gt;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo 2</h5>
+                                <p class="card-text">Este es un ejemplo de un documento XML con información de un producto:</p>
+                                <pre><code>&lt;producto&gt;
+    &lt;nombre&gt;Camiseta&lt;/nombre&gt;
+    &lt;precio&gt;19.99&lt;/precio&gt;
+    &lt;color&gt;rojo&lt;/color&gt;
+&lt;/producto&gt;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Tabla de Datos</h3>
+                <p>Tabla de ejemplo:</p>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Ciudad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Juan</td>
+                                <td>30</td>
+                                <td>Nueva York</td>
+                            </tr>
+                            <tr>
+                                <td>Ana</td>
+                                <td>25</td>
+                                <td>Madrid</td>
+                            </tr>
+                            <tr>
+                                <td>Pedro</td>
+                                <td>35</td>
+                                <td>Barcelona</td>
+                            </tr>
+                            <tr>
+                                <td>María</td>
+                                <td>28</td>
+                                <td>Valencia</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <h3>Más ejemplos de XML</h3>
+                <p>Aquí tienes más ejemplos de documentos XML:</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo 3</h5>
+                                <p class="card-text">Este es un ejemplo de un documento XML con información de una canción:</p>
+                                <pre><code>&lt;cancion&gt;
+    &lt;titulo&gt;Bohemian Rhapsody&lt;/titulo&gt;
+    &lt;artista&gt;Queen&lt;/artista&gt;
+    &lt;año&gt;1975&lt;/año&gt;
+    &lt;genero&gt;Rock&lt;/genero&gt;
+&lt;/cancion&gt;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Ejemplo 4</h5>
+                                <p class="card-text">Este es un ejemplo de un documento XML con información de una receta:</p>
+                                <pre><code>&lt;receta&gt;
+    &lt;nombre&gt;Tarta de manzana&lt;/nombre&gt;
+    &lt;ingredientes&gt;
+        &lt;ingrediente&gt;Manzanas&lt;/ingrediente&gt;
+        &lt;ingrediente&gt;Harina&lt;/ingrediente&gt;
+        &lt;ingrediente&gt;Azúcar&lt;/ingrediente&gt;
+        &lt;ingrediente&gt;Mantequilla&lt;/ingrediente&gt;
+    &lt;/ingredientes&gt;
+    &lt;instrucciones&gt;Paso 1: Pelar las manzanas...&lt;/instrucciones&gt;
+&lt;/receta&gt;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Más información sobre XML</h3>
+                <p>XML es ampliamente utilizado en aplicaciones web y servicios API para el intercambio de datos estructurados. Es un formato flexible y fácil de entender. Puedes aprender más sobre XML en la <a href="https://www.w3.org/XML/">página oficial de XML</a>.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active"><i class="fas fa-list"></i> Categorías</a>
+                    <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-book"></i> Últimos post</a>
+                    <a href="#" class="list-group-item list-group-item-action"><i class="fas fa-share-alt"></i> Síguenos en redes sociales</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2022 Blog de Programación. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

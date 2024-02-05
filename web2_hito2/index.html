@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-d3s8e7h+TAdUai+WOWjWzMMg5lYUv3kHDAFlBZbZsF2kUsjQd7diJ8UtpaCxH4jB" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Blog de Programación</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="xml.html">XML</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="json.html">JSON</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-8">
+                                <article class="article">
+                                    <h2 class="display-4">Explorando los Fundamentos de XML en Desarrollo Web</h2>
+                                    <p class="lead">XML (Extensible Markup Language) es una tecnología esencial en el desarrollo web. A continuación, exploraremos la estructura de un documento XML y su aplicación en diversas tecnologías.</p>
+                                    <p>XML utiliza etiquetas para estructurar la información de manera jerárquica. Aquí hay un ejemplo simple:</p>
+                                    <pre class="bg-light p-3"><code>&lt;book>
+                    &lt;title>Introducción a XML&lt;/title>
+                    &lt;author>Jane Doe&lt;/author>
+                    &lt;published>2022-01-01&lt;/published>
+                &lt;/book></code></pre>
+                                    <p>Este ejemplo representa un libro con información sobre el título, el autor y la fecha de publicación.</p>
+                                    <p>Además, puedes aprender más sobre XML en <a href="xml.html" target="_blank">nuestra página de aprendizaje de XML</a>.</p>
+                                </article>
+                <article class="article">
+                    <h2 class="display-4">Explorando los Fundamentos de XML en Desarrollo Web</h2>
+                    <p class="lead">XML (Extensible Markup Language) es una tecnología esencial en el desarrollo web. A continuación, exploraremos la estructura de un documento XML y su aplicación en diversas tecnologías.</p>
+                    <p>XML utiliza etiquetas para estructurar la información de manera jerárquica. Aquí hay un ejemplo simple:</p>
+                    <pre class="bg-light p-3"><code>&lt;book>
+    &lt;title>Introducción a XML&lt;/title>
+    &lt;author>Jane Doe&lt;/author>
+    &lt;published>2022-01-01&lt;/published>
+&lt;/book></code></pre>
+                    <p>Este ejemplo representa un libro con información sobre el título, el autor y la fecha de publicación.</p>
+                    <p>Además, puedes aprender más sobre XML en <a href="xml.html" target="_blank">nuestra página de aprendizaje de XML</a>.</p>
+                </article>
+                <article class="article">
+                    <h2 class="display-4">Descubriendo las Maravillas de JSON en el Intercambio de Datos</h2>
+                    <p class="lead">JSON (JavaScript Object Notation) desempeña un papel crucial en el intercambio de datos entre aplicaciones. Vamos a explorar su sintaxis, ventajas y cómo se utiliza en el desarrollo de aplicaciones modernas.</p>
+                    <p>La sintaxis de JSON es simple y legible. Aquí tienes un ejemplo:</p>
+                    <pre class="bg-light p-3"><code>{
+    "title": "Introducción a JSON",
+    "author": "John Smith",
+    "published": "2022-02-05"
+}</code></pre>
+                    <p>Este ejemplo representa la información de un libro de manera similar al ejemplo XML.</p>
+                    <p>Si estás interesado en aprender más sobre JSON, te recomendamos <a href="json.html" target="_blank">nuestra página de aprendizaje de JSON</a>.</p>
+                </article>
+                <article class="article">
+                    <h2 class="display-4">Explorando las Maravillas de JSON en el Intercambio de Datos</h2>
+                    <p class="lead">JSON (JavaScript Object Notation) desempeña un papel crucial en el intercambio de datos entre aplicaciones. Vamos a explorar su sintaxis, ventajas y cómo se utiliza en el desarrollo de aplicaciones modernas.</p>
+                    <p>La sintaxis de JSON es simple y legible. Aquí tienes un ejemplo:</p>
+                    <pre class="bg-light p-3"><code>{
+                    "title": "Introducción a JSON",
+                    "author": "John Smith",
+                    "published": "2022-02-05"
+                }</code></pre>
+                    <p>Este ejemplo representa la información de un libro de manera similar al ejemplo XML.</p>
+                    <p>Si estás interesado en aprender más sobre JSON, te recomendamos <a href="json.html" target="_blank">nuestra página de aprendizaje de JSON</a>.</p>
+                </article>
+                <article class="article">
+                    <h2 class="display-4">Explorando JSON en Desarrollo Web con Python y Bootstrap</h2>
+                    <p class="lead">JSON (JavaScript Object Notation) es un formato esencial en el desarrollo web que se integra eficientemente con Python. A continuación, profundizaremos en las características de JSON, su aplicación en Python, y cómo puedes utilizar Bootstrap para mejorar la presentación de datos JSON en tus aplicaciones web.</p>
+                    <p class="mb-3">Python, conocido por su simplicidad y potencia, se combina perfectamente con JSON para el intercambio de datos. Veamos cómo podemos representar datos en formato JSON usando Python:</p>
+                    <pre class="bg-light p-3"><code>import json
+                
+                # Ejemplo de un diccionario Python
+                datos = {
+                    "titulo": "Introducción a JSON",
+                    "autor": "Ana García",
+                    "publicado": "2022-02-15",
+                    "contenido": "JSON es un formato versátil utilizado para..."
+                }
+                
+                # Convertir el diccionario a una cadena JSON
+                json_string = json.dumps(datos, indent=4)
+                print(json_string)
+                </code></pre>
+                    <p class="mb-3">En este ejemplo, utilizamos la biblioteca json de Python para convertir un diccionario Python en una cadena JSON con formato legible.</p>
+                    <p class="mb-3">Ahora, supongamos que deseamos presentar esta información en una aplicación web de manera atractiva. Aquí es donde entra en juego Bootstrap, una biblioteca de diseño que mejora la apariencia y la experiencia del usuario. Utilizaremos clases de Bootstrap para dar estilo a nuestro contenido JSON:</p>
+                    <pre class="bg-light p-3"><code>&lt;div class="card">
+                    &lt;div class="card-body">
+                        &lt;h5 class="card-title">Introducción a JSON&lt;/h5>
+                        &lt;h6 class="card-subtitle mb-2 text-muted">Por Ana García - Publicado el 2022-02-15&lt;/h6>
+                        &lt;p class="card-text">JSON es un formato versátil utilizado para...&lt;/p>
+                    &lt;/div>
+                &lt;/div>
+                </code></pre>
+                    <p>Con estas clases de Bootstrap, hemos creado una tarjeta elegante para presentar la información JSON de manera más amigable.</p>
+                    <p class="mb-3">Para aprender más sobre JSON, su integración con Python y cómo mejorar la presentación con Bootstrap, visita <a href="json.html" target="_blank">nuestra página de aprendizaje de JSON</a>.</p>
+                    <p>Explorar y comprender el uso conjunto de JSON, Python y Bootstrap es crucial para el desarrollo web moderno, permitiéndote crear aplicaciones atractivas y funcionales.</p>
+                </article>
+                
+                
+            </div>
+            <div class="col-md-4">
+                <div class="list-group">
+                    <div class="dropdown">
+                        <a href="#" class="list-group-item list-group-item-action active dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categorías
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="index.html">Inicio</a>
+                            <a class="dropdown-item" href="xml.html">XML</a>
+                            <a class="dropdown-item" href="json.html">JSON</a>
+                            <a class="dropdown-item" href="contacto.html">Contacto</a>
+                        </div>
+                    </div>
+                    <a href="https://blog.hubspot.com/website/how-to-start-coding" class="list-group-item list-group-item-action"><i class="fa fa-code"></i> Consejos de Programación</a>
+                    <a href="https://learnprogramming.online" class="list-group-item list-group-item-action" target="_blank"><i class="fa fa-book"></i> Ayuda para Aprender a Programar</a>
+                    <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-clock"></i> Últimos post</a>
+                    <a href="https://github.com/hollyredfield" class="list-group-item list-group-item-action"><i class="fab fa-github"></i> Síguenos en redes sociales</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 Blog de Programación. Todos los derechos reservados.</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

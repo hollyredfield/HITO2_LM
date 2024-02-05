@@ -1,0 +1,100 @@
+/* Resetear estilos y dar un fondo blanco al cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333; /* Color de texto principal */
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #007bff; /* Color de fondo de la barra de navegación */
+    color: #fff; /* Color del texto de la barra de navegación */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* Color de los enlaces en la barra de navegación */
+}
+
+/* Estilo de los enlaces en la barra de navegación al pasar el ratón */
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Cambia de color al pasar el ratón */
+}
+
+/* Estilo del contenedor principal */
+.container {
+    padding-top: 20px;
+}
+
+
+
+/* Estilo de la barra lateral */
+.list-group {
+    margin-top: 20px;
+}
+
+.list-group-item {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: #f8f9fa;
+    color: #007bff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo de los enlaces en el pie de página */
+.footer a {
+    color: #007bff;
+}
+
+/* Estilo de los enlaces en el pie de página al pasar el ratón */
+.footer a:hover {
+    color: #0056b3;
+}
+
+h2.display-4 {
+    color: #007bff; /* Color del texto */
+    background-color: #fff; /* Color de fondo */
+    padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+    border-radius: 5px; /* Bordes redondeados para un aspecto más suave */
+}
+.article {
+    background-color: #f8f9fa; /* Color de fondo para el artículo */
+    padding: 20px; /* Espaciado interno para el contenido */
+    border: 1px solid #d3d9df; /* Borde para definir el límite del artículo */
+    border-radius: 10px; /* Bordes redondeados para un aspecto más suave */
+    margin-bottom: 20px; /* Margen inferior para separar los artículos */
+}
+
+.article h2.display-4 {
+    color: #007bff; /* Color del texto */
+}
+
+.article p {
+    color: #343a40; /* Color del texto del párrafo */
+}
+
+.article pre {
+    background-color: #fff; /* Color de fondo para el bloque de código */
+    border: 1px solid #d3d9df; /* Borde para definir el límite del bloque de código */
+    padding: 10px; /* Espaciado interno para el bloque de código */
+    border-radius: 5px; /* Bordes redondeados para un aspecto más suave */
+}
+
+.article a {
+    color: #007bff; /* Color del enlace */
+}

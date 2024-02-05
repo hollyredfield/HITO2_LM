@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, #dd1975, #ff3300);
+    /* Asegúrate de que el fondo cubra toda la pantalla */
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000000; /* Color de texto blanco */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+#json2, #json1, .card-body {
+    background-color: #c59696; /* Cambia esto al color que prefieras */
+}
